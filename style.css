@@ -1,0 +1,48 @@
+*{
+    font-family: 'Arial';
+
+}
+
+
+#grid{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 330px;
+    height: auto;
+    margin: auto;
+}
+
+.box{
+    width : 100px;
+    height: 100px;
+    background-color: beige;
+    border: 10px solid black;
+    font-size: 100px;
+    margin:-5px;
+}
+
+.nul::before{
+    content: "E";
+    color: rgba(0,0,0,0);
+    padding: 15px;
+}
+
+.red::before{
+    content: "X";
+    color: red;
+    padding: 16px;
+}
+
+.blue::before{
+    content: "O";
+    color: blue;
+    padding: 11px;
+}
+#res{
+    font-size: 50px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;    
+}
